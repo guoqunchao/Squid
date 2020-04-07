@@ -14,6 +14,7 @@ admin 123456
 ok
 #ctrl+c退出
 [root@iZt4nafbsyuy7qm2iwuyu6Z ~]# vim /etc/squid/squid.conf
+
 #在最后添加
 auth_param basic program /usr/lib64/squid/basic_ncsa_auth /etc/squid/passwords
 auth_param basic realm proxy
